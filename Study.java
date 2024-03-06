@@ -14,7 +14,7 @@ public class Study
 	System.out.print("How many credits is this course?: ");
 	int credits = myInput.nextInt();
 	
-	myInput.nextLine();	//Line skip
+	myInput.nextLine();
 	
 	System.out.print("What course are you taking?: ");
 	String course = myInput.nextLine();
@@ -26,7 +26,7 @@ public class Study
 	
 	//Output of user input data
 	System.out.println("You should expect to spend " + studyHrs
-					   + " hours each week studying for "
-					   + course + ", plan ahead.");
+			   				+ " hours each week studying for "
+			   				+ course + ", plan ahead.");
    }
 }
